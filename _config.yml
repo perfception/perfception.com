@@ -1,0 +1,9 @@
+title: Perfception &bull; Быстрее лучше, чем медленнее, %username%
+email: hello@perfception.com
+description: Коллективный блог о клиентской оптимизации.
+baseurl: ""
+url: "https://perfception.com"
+twitter_username: perfception
+github_username:  perfception
+
+markdown: kramdown

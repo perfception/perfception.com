@@ -1,0 +1,63 @@
+html,
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  font: 16px/1.4 Helvetica, Arial, sans-serif;
+}
+
+.message
+{
+  width: 600px;
+  margin: 100px auto 0;
+}
+
+  .message__text p
+  {
+    margin: 0 0 25px;
+  }
+
+.social
+{
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+
+  text-align: center;
+}
+
+  .social__item
+  {
+    display: inline;
+    /*display: inline-block;*/
+
+    /*width: 32px;
+    height: 32px;*/
+    margin: 0 5px;
+    padding: 0;
+
+    vertical-align: middle;
+  }
+
+  .social__icon
+  {
+
+    vertical-align: middle;
+    /*width: 32px;
+    height: 32px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 32px 32px;
+            background-size: 32px 32px;*/
+  }
+
+  .social__link:hover .social__icon
+  {
+    fill: #f00;
+  }
