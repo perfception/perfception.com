@@ -10,6 +10,19 @@ body
   font: 16px/1.4 Helvetica, Arial, sans-serif;
 }
 
+:link:hover,
+:visited:hover
+{
+  color:red!important
+}
+
+:link
+{
+  color: #00c;
+
+  transition: color .15s ease-out;
+}
+
 .message
 {
   width: 600px;
@@ -39,10 +52,7 @@ body
   .social__item
   {
     display: inline;
-    /*display: inline-block;*/
 
-    /*width: 32px;
-    height: 32px;*/
     margin: 0 5px;
     padding: 0;
 
@@ -51,15 +61,9 @@ body
 
   .social__icon
   {
-
     vertical-align: middle;
-    /*width: 32px;
-    height: 32px;
 
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: 32px 32px;
-            background-size: 32px 32px;*/
+    transition: fill .25s ease-out;
   }
 
   .social__link:hover .social__icon
