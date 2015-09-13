@@ -70,3 +70,13 @@ body
   {
     fill: #f00;
   }
+
+@media screen and (max-width: 660px) {
+
+  .message
+  {
+    width: auto;
+    margin: 35px 15px 50px;
+  }
+
+}
