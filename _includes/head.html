@@ -6,7 +6,18 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  {% if 0 == 1 %}
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  {% endif %}
+  <style>body,html{margin:0;padding:0}body{font:16px/1.4 Helvetica,Arial,sans-serif}:link:hover,:visited:hover{color:red!important}:link{color:#00c;transition:color .15s ease-out}.message{width:600px;margin:100px auto 0}.message__text{margin-bottom:50px}.message__text p{margin:0 0 25px}.social{margin:0;padding:0;list-style-type:none;text-align:center}.social__item{display:inline;margin:0 5px;padding:0;vertical-align:middle}.social__icon{vertical-align:middle;transition:fill .25s ease-out}.social__link:hover .social__icon{fill:red}@media screen and (max-width:660px){.message{width:auto;margin:35px 15px 50px}}</style>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@perfception" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+
+  <meta name="twitter:image" content="/assets/rocket.png" />
+
 </head>
