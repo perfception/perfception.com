@@ -9,6 +9,6 @@ date:   2015-09-11 20:46:17
 
 Мы&nbsp;&mdash; это команда <nobr>web-разработчиков</nobr>, которая по&nbsp;роду профессиональной <nobr>деятельности/персонального интереса</nobr> следит за&nbsp;новостями из&nbsp;мира frontend performance. И, раз уж&nbsp;мы&nbsp;этим и&nbsp;так занимаемся, почему&nbsp;бы не&nbsp;поделиться тем, что мы&nbsp;нашли?
 
-А&nbsp;чтобы не&nbsp;пропустить знаменательное открытие, ты&nbsp;можешь зафоловить наc в&nbsp;[Твиттере](https://twitter.com/{{ site.twitter_username }}) (пока ещё пустой), а&nbsp;если в&nbsp;тебе жив дух старой школы, то&nbsp;подписывайся на&nbsp;[<nobr>rss-фид</nobr>](/feed.xml).
+А&nbsp;чтобы не&nbsp;пропустить знаменательное открытие, ты&nbsp;можешь зафоловить наc в&nbsp;[Твиттере](https://twitter.com/{{ site.twitter_username }}) (пока ещё пустой), а&nbsp;если в&nbsp;тебе жив дух старой школы, то&nbsp;подписаться на&nbsp;[<nobr>rss-фид</nobr>](/feed.xml).
 
 &mdash;&nbsp;с&nbsp;любовью, команда perfception.com
