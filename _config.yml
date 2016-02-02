@@ -3,7 +3,22 @@ email: hello@perfception.com
 description: Коллективный блог о клиентской оптимизации.
 baseurl: ""
 url: "https://perfception.com"
+name: perfception.com
 twitter_username: perfception
 github_username:  perfception
 
 markdown: kramdown
+
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: "ru"
+    values:
+      lang: "ru"
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
