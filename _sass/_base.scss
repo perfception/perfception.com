@@ -38,6 +38,8 @@ html
   {
     position: absolute;
     right: 0;
+
+    margin-top: -3px;
   }
 
 .logo
@@ -97,8 +99,7 @@ html
 
 .post
 {
-  max-width: 780px;
-  margin: 0 auto 35px;
+  margin-bottom: 35px;
 }
 
   .post__title
@@ -186,15 +187,16 @@ html
     fill: #f00;
   }
 
-// @media screen and (max-width: 660px) {
-//
-//   .message
-//   {
-//     width: auto;
-//     margin: 35px 15px 50px;
-//   }
-//
-// }
+@media screen and (max-width: 800px) {
+
+  .wrap
+  {
+    width: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+}
 
 .text
 {
