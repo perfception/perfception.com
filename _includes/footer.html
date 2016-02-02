@@ -1,1 +1,8 @@
-{% include counters.html %}
+<div class="foot">
+  <div class="wrap">
+    &copy;&nbsp;2015–2016&nbsp;perfception.com
+  </div>
+</div>
+{% if jekyll.environment == "production" %}
+  {% include counters.html %}
+{% endif %}

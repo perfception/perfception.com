@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% assign posts = site.posts | where: "lang", page.lang %}
+<div class="posts">
+  {% for post in posts %}
+  <div class="post">
+    <p class="post__meta">
+      {{ post.date | date: "%d.%m.%Y" }}
+    </p>
+    <h2 class="post__title">
+      <a href="{{ post.url }}" class="post__title-link">{{ post.title }}</a>
+    </h2>
+    <div class="post__content text">
+      {{ post.content }}
+    </div>
+  </div>
+  {% endfor %}
+</div>
